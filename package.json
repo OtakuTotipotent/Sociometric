@@ -1,0 +1,35 @@
+{
+  "name": "sociometric",
+  "version": "1.0.0",
+  "description": "Checkout the [Functional Requirements](./NOTES.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtakuTotipotent/Sociometric.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OtakuTotipotent/Sociometric/issues"
+  },
+  "homepage": "https://github.com/OtakuTotipotent/Sociometric#readme",
+  "dependencies": {
+    "@babel/core": "^8.0.5",
+    "@babel/preset-env": "^8.0.5",
+    "autoprefixer": "^10.6.0",
+    "browser-sync": "^3.0.4",
+    "cssnano": "^9.0.4",
+    "dart-sass": "^1.25.0",
+    "gulp": "^5.0.1",
+    "gulp-babel": "^8.1.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.5.28"
+  }
+}
