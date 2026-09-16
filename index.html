@@ -32,15 +32,31 @@
 
 <body>
   <header class="header container">
-    <h1>Social Media Tracking System</h1>
-    Total Leads: 23k Dark Mode
+    <div class="header__title">
+      <h1>Social Media Tracking System</h1>
+      Total Leads: 23k
+    </div>
+
+    <fieldset aria-label="theme toggle" role="radiogroup" class="header__toggle toggle">
+      <label for="dark">Dark</label>
+      <div class="toggle__wrapper">
+        <input type="radio" name="theme" id="dark" />
+        <input type="radio" name="theme" id="system" checked />
+        <input type="radio" name="theme" id="light" />
+
+        <span aria-hidden="true" class="toggle__background"></span>
+        <span aria-hidden="true" class="toggle__button"></span>
+      </div>
+
+      <label for="system">System</label>
+      <label for="light">Light</label>
+    </fieldset>
   </header>
 
   <main>
     <section>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatum assumenda impedit incidunt, ipsa nemo
-      reprehenderit possimus suscipit excepturi cumque atque quisquam, nesciunt esse repudiandae nostrum aliquam fuga
-      consectetur harum!
+      A quantitative method used to measure and map out social relationships, interpersonal choices, and dynamics within
+      the groups and communities, while living in this fast-pace global village!
     </section>
   </main>
 
