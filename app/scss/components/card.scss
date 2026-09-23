@@ -1,5 +1,59 @@
 @use "../utils" as *;
 
 .card {
-  padding: rem(20);
+  background: var(--dark-card);
+  color: var(--dark-text1);
+  width: rem(255);
+  padding: rem(25);
+  text-align: center;
+
+  &--facebook {}
+
+  &--x {}
+
+  &--instagram {}
+
+  &--youtube {}
+
+  &__platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: rem(28);
+  }
+
+  &__icon {
+    margin-right: rem(8);
+
+    &--facebook {}
+
+    &--x {}
+
+    &--instagram {}
+
+    &--youtube {}
+  }
+
+  &__username {
+    font-size: rem(12);
+    font-weight: 700;
+  }
+
+  &__count {
+    color: var(--light-bg);
+
+    &--big {
+      font-size: rem(56);
+    }
+
+    &--small {}
+  }
+
+  &__label {}
+
+  &__change {
+    &--up {}
+
+    &--down {}
+  }
 }

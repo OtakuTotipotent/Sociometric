@@ -17,6 +17,11 @@
   <link rel="stylesheet" href="./dist/style.css">
   <script src="./dist/script.js" defer></script>
 
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
   <!-- Prefix style for links -->
   <style>
     .attribution {
@@ -34,12 +39,10 @@
   <header class="header container">
     <div class="header__title">
       <h1>Social Media Tracking System</h1>
-      <span class="header__subtitle">
-        Total Leads: 23k
-      </span>
+      <span class="header__subtitle">Total Leads: 200k</span>
     </div>
 
-    <fieldset aria-label="theme toggle" role="radiogroup" class="header__toggle toggle">
+    <fieldset class="header__toggle toggle" aria-label="theme toggle" role="radiogroup">
       <div class="toggle__wrapper">
         <input type="radio" name="theme" id="dark" />
         <input type="radio" name="theme" id="system" checked />
@@ -56,9 +59,20 @@
   </header>
 
   <main>
-    <section>
-      A quantitative method used to measure and map out social relationships, interpersonal choices, and dynamics within
-      the groups and communities, while living in this fast-pace global village!
+    <section class="container">
+      <div class="card">
+        <div class="card__platform">
+          <i class="card__icon fa-brands fa-square-facebook"></i>
+          <div class="card__username">@sapienswhisper</div>
+        </div>
+
+        <div class="card__count card__count--bg">
+          998
+          <div class="card__label">Followers</div>
+        </div>
+
+        <div class="card__change">Today: 12</div>
+      </div>
     </section>
   </main>
 
