@@ -11,9 +11,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
 
   <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./dist/style.css">
   <script src="./dist/script.js" defer></script>
 
@@ -66,12 +67,15 @@
           <div class="card__username">@sapienswhisper</div>
         </div>
 
-        <div class="card__count card__count--bg">
-          998
+        <div class="card__followers">
+          <div class="card__count card__count--bg">998</div>
           <div class="card__label">Followers</div>
         </div>
 
-        <div class="card__change">Today: 12</div>
+        <div class="card__change card__change--up">
+          <i class="fa-solid fa-arrow-up"></i>
+          <div class="card__number">Today: 12</div>
+        </div>
       </div>
     </section>
   </main>

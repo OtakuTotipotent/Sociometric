@@ -5,6 +5,7 @@
   color: var(--dark-text1);
   width: rem(255);
   padding: rem(25);
+  border-radius: rem(10);
   text-align: center;
 
   &--facebook {}
@@ -39,8 +40,16 @@
     font-weight: 700;
   }
 
+  &__followers {
+    margin-bottom: rem(25);
+  }
+
   &__count {
     color: var(--light-bg);
+    font-weight: 700;
+    letter-spacing: rem(2);
+    line-height: 1;
+    margin-bottom: rem(9);
 
     &--big {
       font-size: rem(56);
@@ -49,11 +58,28 @@
     &--small {}
   }
 
-  &__label {}
+  &__label {
+    font-size: rem(12);
+    letter-spacing: rem(5);
+    font-weight: 400;
+    color: var(--dark-text1);
+    text-transform: uppercase;
+  }
 
   &__change {
-    &--up {}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem(4);
+    font-size: rem(12);
+    font-weight: 700;
 
-    &--down {}
+    &--up {
+      color: var(--limegreen);
+    }
+
+    &--down {
+      color: var(--brightred);
+    }
   }
 }
